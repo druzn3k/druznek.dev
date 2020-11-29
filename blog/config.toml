@@ -1,0 +1,6 @@
+baseURL = "https://druznek.dev/"
+languageCode = "en-us"
+title = "druznek annoys the world!"
+theme = "researcher"
+math = true
+enableEmoji = true
