@@ -1,7 +1,7 @@
 # frozen_string_literal: true
+require_relative './common'
 
-fname = File.basename(__FILE__, '.rb')
-input = File.read(File.expand_path("../inputs/#{fname}.input", __dir__))
+input = read_input_file(__FILE__)
 
 count = 0
 minus_one_index = -1
